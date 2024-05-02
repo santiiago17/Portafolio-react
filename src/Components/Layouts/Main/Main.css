@@ -1,0 +1,20 @@
+.title-h2{
+    /* border: solid 3px red; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.title-img{
+    width: 5rem;
+    background-color: #c1ff95;
+    border-radius: 10rem;
+    padding: 0.7rem;
+}
+
+.hr-title{
+    border: solid 7px #c1ff95;
+    margin: 1rem 0rem 1rem 0rem;
+}
