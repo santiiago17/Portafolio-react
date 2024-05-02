@@ -2,14 +2,37 @@ import React from 'react'
 import './Header.css'
 import { Image } from '../../UI/Image/Image'
 import { Line } from '../../UI/Line/Line'
+import { ItemNavbar } from '../../UI/ItemNavbar/ItemNavbar'
+import { FaWhatsapp, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export const Header = () => {
   return (
-      <header>
-        <Image style='image' src='https://images.pexels.com/photos/164186/pexels-photo-164186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
-        <h1>Santiago Hurtado Marulanda</h1>
-        <Line style='line'/>
-      </header>
+    <header>
+      <Image style='image-profile' src='src/Images/enanito.jpeg' />
+
+      <div className='title'>
+        <h1>Santiago Hurtado</h1>
+        <Line style='line' />
+      </div>
+
+
+      <ul className='ul-menu'>
+        <ItemNavbar style='a-menu' href='#' content='Perfil' />
+        <ItemNavbar style='a-menu' href='#' content='Proyectos' />
+        <ItemNavbar style='a-menu' href='#' content='Referencias' />
+        <ItemNavbar style='a-menu' href='#' content='Experiencias' />
+      </ul>
+
+      <Image style='image-sena-header' src='src/Images/logo-sena.png' />
+
+      <ul className='ul-socialNetwork'>
+        <ItemNavbar style='socialNetwork' href='#' content={<FaWhatsapp />} />
+        <ItemNavbar style='socialNetwork' href='#' content={<FaLinkedin />} />
+        <ItemNavbar style='socialNetwork' href='#' content={<FaGithub />} />
+        <ItemNavbar style='socialNetwork' href='#' content={<FaInstagram />} />
+      </ul>
+
+    </header>
   )
 }
 
