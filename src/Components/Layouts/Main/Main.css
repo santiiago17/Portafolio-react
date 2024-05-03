@@ -1,5 +1,12 @@
+main{
+    height: 100%;
+}
+
+.container-div{
+    padding: 0rem 0rem 4rem 0rem;
+}
+
 .title-h2{
-    /* border: solid 3px red; */
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -17,4 +24,120 @@
 .hr-title{
     border: solid 7px #c1ff95;
     margin: 1rem 0rem 1rem 0rem;
+}
+
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+/* PROYECTOS */
+
+.box-card{
+    background-color:  #39a900;
+    width: 30rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 1rem;
+    padding-left: .5rem;
+    justify-content: space-around;
+}
+
+.imgCard{
+    width: 12rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.contentP{
+    width: 48%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+.stylePtitle{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.styleP{
+    font-size: 1.1rem;
+}
+
+.styleBtn{
+    background-color: #222;
+    font-size: 1.1rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    border: none;
+}
+
+/* REFERENCIAS */
+
+.container-references{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box-references{
+    border: solid 4px #222;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* EXPERIENCES */
+
+.container-experiences{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.boxFooter {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 1rem;
+}
+.stiloImg {
+    width: 11rem;
+    height: 8rem;
+    /* border: solid 2px red; */
+}
+.lineF {
+    border: none;
+    width: 10rem;
+    height: 1.2rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right, #39a900 50%, #c1ff95 50%);
+}
+.classP {
+    /* font-weight: 600; */
+    font-size: 1.1rem;
 }

@@ -8,7 +8,7 @@ header {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .title{
@@ -33,7 +33,7 @@ h1{
 }
 
 .line{
-    width: 85%;
+    width: 80%;
     border: solid 3px white;
 }
 
