@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -16,8 +19,9 @@ body {
   line-height: 1.5;
   font-weight: 400;
   width: 100%;
+  display: flex;
   
-  /* border: solid red 4px; */
+  /* border: solid blue 4px; */
 }
 
 
