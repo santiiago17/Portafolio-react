@@ -5,10 +5,13 @@ import { Line } from '../../UI/Line/Line'
 import { ItemNavbar } from '../../UI/ItemNavbar/ItemNavbar'
 import { FaWhatsapp, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
+const imgProfile = 'src/Images/enanito.jpeg';
+const logoSena= 'src/Images/logo-sena.png';
+
 export const Header = () => {
   return (
     <header>
-      <Image style='image-profile' src='src/Images/enanito.jpeg' />
+      <Image style='image-profile' src={imgProfile} alt='img Profile' />
 
       <div className='title'>
         <h1>Santiago Hurtado</h1>
@@ -23,7 +26,7 @@ export const Header = () => {
         <ItemNavbar style='a-menu' href='#' content='Experiencias' />
       </ul>
 
-      <Image style='image-sena-header' src='src/Images/logo-sena.png' />
+      <Image style='image-sena-header' src={logoSena} />
 
       <ul className='ul-socialNetwork'>
         <ItemNavbar style='socialNetwork' href='#' content={<FaWhatsapp />} />

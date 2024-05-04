@@ -7,11 +7,18 @@ import { Card } from '../../UI/Card/Card'
 import { References } from '../../UI/References/References'
 import { Experiences } from '../../UI/Experiences/Experiences'
 
+const logoSena= 'src/Images/logo-sena.png';
+const imgProjects ='src/Images/dev.webp';
+const imgReact = 'src/Images/React.png';
+const imgNode = 'src/Images/node.png';
+const imgMongo = 'src/Images/mongo.png';
+const imgJava = 'src/Images/java.png';
+
 export const Main = () => {
   return (
     <main>
       <div className='container-div'>
-        <Titles style='title-h2' src='src/Images/logo-sena.png' styleImage='title-img' content='Perfil' />
+        <Titles style='title-h2' src={logoSena} alt='Logo Sena' styleImage='title-img' content='Perfil' />
         <Line style='hr-title' />
         <Paragraph style='p-profile' content='Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Omnis maxime at, quidem dolore doloribus ducimus maiores error,provident sapiente, perferendis
@@ -24,19 +31,19 @@ export const Main = () => {
       </div>
 
       <div className='container-div'>
-        <Titles style='title-h2' src='src/Images/logo-sena.png' styleImage='title-img' content='Proyectos' />
+        <Titles style='title-h2' src={logoSena} alt='Logo Sena' styleImage='title-img' content='Proyectos' />
         <Line style='hr-title' />
 
         <div className='container-card'>
-          <Card style='box-card' styleImg='imgCard' src='src/Images/dev.webp' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
-          <Card style='box-card' styleImg='imgCard' src='src/Images/dev.webp' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
-          <Card style='box-card' styleImg='imgCard' src='src/Images/dev.webp' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
-          <Card style='box-card' styleImg='imgCard' src='src/Images/dev.webp' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
+          <Card style='box-card' styleImg='imgCard' src={imgProjects} alt='img Project' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
+          <Card style='box-card' styleImg='imgCard' src={imgProjects} alt='img Project' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
+          <Card style='box-card' styleImg='imgCard' src={imgProjects} alt='img Project' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
+          <Card style='box-card' styleImg='imgCard' src={imgProjects} alt='img Project' contentBox='contentP' stylePtitle='stylePtitle' styleP='styleP' styleBtn='styleBtn' href='#' />
         </div>
       </div>
 
       <div className='container-div'>
-        <Titles style='title-h2' src='src/Images/logo-sena.png' styleImage='title-img' content='Referencias' />
+        <Titles style='title-h2' src={logoSena} alt='Logo Sena' styleImage='title-img' content='Referencias' />
         <Line style='hr-title' />
 
         <div className='container-references'>
@@ -47,13 +54,13 @@ export const Main = () => {
       </div>
 
       <div className='container-div'>
-        <Titles style='title-h2' src='src/Images/logo-sena.png' styleImage='title-img' content='Experiencia' />
+        <Titles style='title-h2' src={logoSena} alt='Logo Sena' styleImage='title-img' content='Experiencia' />
         
         <div className='container-experiences'>
-          <Experiences src='src/Images/React.png' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
-          <Experiences src='src/Images/node.png' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
-          <Experiences src='src/Images/mongo.png' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
-          <Experiences src='src/Images/java.png' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
+          <Experiences src={imgReact} alt='img React' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
+          <Experiences src={imgNode} alt='img Node JS' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
+          <Experiences src={imgMongo} alt='img Mongo' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
+          <Experiences src={imgJava} alt='img Java' style='stiloImg' styleLine='lineF' classP='classP' content='Bases' boxFooter='boxFooter' />
         </div>
       </div>
 
