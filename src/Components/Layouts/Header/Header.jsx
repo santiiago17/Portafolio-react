@@ -5,8 +5,8 @@ import { Line } from '../../UI/Line/Line'
 import { ItemNavbar } from '../../UI/ItemNavbar/ItemNavbar'
 import { FaWhatsapp, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
-const imgProfile = 'src/Images/enanito.jpeg';
-const logoSena= 'src/Images/logo-sena.png';
+const imgProfile = 'public/Images/enanito.jpeg';
+const logoSena= 'public/Images/logo-sena.png';
 
 export const Header = () => {
   return (
