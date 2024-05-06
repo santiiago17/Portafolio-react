@@ -7,12 +7,12 @@ import { Card } from '../../UI/Card/Card'
 import { References } from '../../UI/References/References'
 import { Experiences } from '../../UI/Experiences/Experiences'
 
-const logoSena= 'public/Images/logo-sena.png';
-const imgProjects ='public/Images/dev.webp';
-const imgReact = 'public/Images/React.png';
-const imgNode = 'public/Images/node.png';
-const imgMongo = 'public/Images/mongo.png';
-const imgJava = 'public/Images/java.png';
+import logoSena from '../../../assets/Images/logo-sena.png';
+import imgProjects  from'../../../assets/Images/dev.webp';
+import imgReact  from '../../../assets/Images/React.png';
+import imgNode  from '../../../assets/Images/node.png';
+import imgMongo  from '../../../assets/Images/mongo.png';
+import imgJava  from '../../../assets/Images/java.png';
 
 export const Main = () => {
   return (
