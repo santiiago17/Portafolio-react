@@ -20,14 +20,17 @@ export const Main = () => {
       <div className='container-div'>
         <Titles style='title-h2' src={logoSena} alt='Logo Sena' styleImage='title-img' content='Perfil' />
         <Line style='hr-title' />
-        <Paragraph style='p-profile' content='Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Omnis maxime at, quidem dolore doloribus ducimus maiores error,provident sapiente, perferendis
-        necessitatibus ea iure amet voluptas ipsam hic quos ut aliquam. Lorem ipsum dolor sit, amet 
-        consectetur adipisicing elit. Omnis maxime at, quidem dolore doloribus ducimus maiores error,
-        provident sapiente, perferendis necessitatibus ea iure amet voluptas ipsam hic quos ut aliquam. 
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis maxime at, quidem dolore doloribus
-        ducimus maiores error,provident sapiente, perferendis necessitatibus ea iure amet voluptas ipsam hi
-        quos ut aliquam.' />
+        <Paragraph style='p-profile' content='Soy un desarrollador de software con experiencia en tecnologías como JavaScript, 
+            SQL, MySQL, HTML, CSS y manejo control de versiones con GIT. Me especializo en el 
+            desarrollo de aplicaciones Frontend y Backend utilizando estas tecnologías para 
+            crear interfaces de usuario atractivas y funcionales. Además de mis competencias 
+            técnicas, poseo habilidades interpersonales como comunicación efectiva, 
+            adaptabilidad, autodidacta, pensamiento crítico y trabajo en equipo. Estoy 
+            comprometido en colaborar en proyectos desafiantes donde pueda aplicar todas mis 
+            destrezas para desarrollar soluciones de calidad y generar un impacto positivo en el 
+            campo del desarrollo de aplicaciones. Me entusiasman las oportunidades que me 
+            permitan impulsar el éxito de los proyectos y contribuir al crecimiento de los equipos 
+            de desarrollo. ' />
       </div>
 
       <div className='container-div'>
